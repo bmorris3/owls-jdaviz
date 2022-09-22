@@ -154,7 +154,7 @@
              * https://backbonejs.org/#Model for more information */
             requestWidget({
                 voilaUrl: 'http://localhost:8000',
-                notebook: 'bqplot_vuetify_example.ipynb',
+                notebook: 'notebook.ipynb',
                 mountId: 'histogram_bins2',
             }).then(sliderModel => {
                 this.sliderModel = sliderModel;
@@ -168,7 +168,7 @@
 
             requestWidget({
                 voilaUrl: 'http://localhost:8000',
-                notebook: 'notebook2.ipynb',
+                notebook: 'notebook.ipynb',
                 mountId: 'event_demo',
             }).then(eventDemoModel => {
                 this.eventDemoModel = eventDemoModel;
@@ -176,7 +176,7 @@
 
             requestWidget({
                 voilaUrl: 'http://localhost:8000',
-                notebook: 'notebook2.ipynb',
+                notebook: 'notebook.ipynb',
                 mountId: 'template_event_demo',
             }).then(templateEventDemoModel => {
                 this.templateEventDemoModel = templateEventDemoModel;
